@@ -1,18 +1,28 @@
-section {
+#container2 {
     background-color: white;
-    height: 20vh;
+    height: 60px;
+    div {
+        width: 10%;
+    }
 }
-ul {
+ul.menu {
+    width: 65%;
     li { 
         display: inline-block;
         color: black;
         margin-left: 2vw;
-        a {
-            text-decoration: none;
-            color: grey;
-            &:hover {
-                color: $mainColor;
+        text-decoration: none;
+        color: grey;
+        cursor: pointer;
+        &:hover {
+            color: $mainColor;
             }
         }
     }
+//sticky menu
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }

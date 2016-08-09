@@ -1,4 +1,4 @@
-/* line 2, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ article { background-color: #eeeeee; height: 80vh; }
+/* line 2, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ article { background-color: #eeeeee; height: 60vh; }
 
 /* line 6, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ .box { display: flex; justify-content: center; align-items: center; flex-direction: column; width: 34vh; }
 
@@ -18,7 +18,7 @@
 
 /* line 19, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container2 { display: flex; flex-direction: row; align-items: center; justify-content: space-around; height: 20vh; }
 
-/* line 26, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container3 { display: flex; justify-content: center; align-items: center; height: 80vh; }
+/* line 26, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container3 { display: flex; justify-content: center; align-items: center; height: 60vh; }
 
 /* line 32, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container4 { display: flex; justify-content: center; align-items: center; flex-direction: column; height: 90vh; }
 
@@ -58,13 +58,17 @@
 
 /* line 80, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #iconSlide img { height: 7vh; display: flex; }
 
-/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ section { background-color: white; height: 20vh; }
+/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ #container2 { background-color: white; height: 60px; }
 
-/* line 6, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul li { display: inline-block; color: black; margin-left: 2vw; }
+/* line 4, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ #container2 div { width: 10%; }
 
-/* line 10, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul li a { text-decoration: none; color: grey; }
+/* line 8, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul.menu { width: 65%; }
 
-/* line 13, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul li a:hover { color: #9f449b; }
+/* line 10, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul.menu li { display: inline-block; color: black; margin-left: 2vw; text-decoration: none; color: grey; cursor: pointer; }
+
+/* line 17, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul.menu li:hover { color: #9f449b; }
+
+/* line 23, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ .sticky { position: fixed; top: 0; left: 0; width: 100%; }
 
 /* line 2, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #container4 #about { padding-bottom: 10vh; }
 
