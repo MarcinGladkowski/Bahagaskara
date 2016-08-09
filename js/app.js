@@ -54,7 +54,39 @@ var sticky_menu = function() {
     
 $(window).on('scroll', sticky_menu);    
   
+var divUl = $('.slider');
+var ul = $('.slider').find('ul').css('padding', 0).css('margin', 0).width(2450).css('position', 'relative');
+var li = $('.slider').find('ul').children().css('display', 'inline-block');
+var img = $('li').find('.prof');
 
+
+divUl.width(25+'vh').css('overflow', 'hidden');
+    
+function slider(){
+    var prev = $('#arr1');
+    var next = $('#arr2');
+    var index = 0;
+    
+    li.each(function(i){
+       $(this).attr('index', i);
+    }) 
+   
+    next.on('click', function(){
+        index += 1;
+        if (index > li.length - 1) {
+            index = 0;
+        } 
+        ul.animate({left: (-index * 25)+'vh'},2000);
+    })
+    prev.on('click', function(){
+        index -= 1;
+        if (index < 0) {
+            index = 5;
+        }
+        ul.animate({left: (-index * 25)+'vh'},2000);
+    })  
+};
+slider();
 });
 
 

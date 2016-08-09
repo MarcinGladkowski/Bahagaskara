@@ -41,13 +41,6 @@ height: 14vh;
 .logs_section4 {
     margin-top: 5%;
 }
-#profiles {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    width: 110vh;
 .prof {
     width: 25vh;
     height: 100%;
@@ -55,7 +48,7 @@ height: 14vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    }
+   
 .around {
     width: 20vh;
     height: 20vh;
@@ -87,8 +80,7 @@ h5 {
       }
     }
   }
-}
-
+ }
 #skills {
     display: flex;
     flex-direction: row;
@@ -142,8 +134,30 @@ h5 {
         width: 85%;
     }
 }
+.slider{
+  height: 250px;
+/*  border: 1px dotted green;*/
+}
 
+.slider ul{
+  list-style: none;
+/*  border: 1px dotted red;*/
+  position: relative;
+}
 
+.slider li{
+/*   border: 1px dotted yellow;*/
+}
+.boxes {
+    width: 400px;
+    height: 200px;
+    background-color: green;
+}
+.boxes2 {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
 
 
 

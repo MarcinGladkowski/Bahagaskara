@@ -24,7 +24,7 @@
 
 /* line 37, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #contain_space { display: flex; justify-content: center; align-items: center; flex-direction: column; align-items: center; height: 60vh; }
 
-/* line 42, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container5 { display: flex; align-items: center; flex-direction: column; align-items: center; height: 160vh; }
+/* line 42, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container5 { display: flex; align-items: center; flex-direction: column; align-items: center; height: 140vh; }
 
 /* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ header { background-image: url("../images/background2.png"); background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; justify-content: center; background-color: rebeccapurple; height: 100vh; }
 
@@ -100,44 +100,52 @@
 
 /* line 41, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .logs_section4 { margin-top: 5%; }
 
-/* line 44, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles { display: flex; flex-direction: row; justify-content: center; align-items: center; justify-content: space-between; width: 110vh; }
+/* line 51, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof { width: 25vh; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 
-/* line 51, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .prof { width: 25vh; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+/* line 59, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof .around { width: 20vh; height: 20vh; background-color: #d9d9d9; border-radius: 50%; }
 
-/* line 59, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .around { width: 20vh; height: 20vh; background-color: #d9d9d9; border-radius: 50%; }
+/* line 65, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof h4 { color: black; text-align: center; }
 
-/* line 65, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles h4 { color: black; text-align: center; }
+/* line 69, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof h5 { color: black; text-align: center; }
 
-/* line 69, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles h5 { color: black; text-align: center; }
+/* line 73, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof .smallest { display: flex; justify-content: space-around; width: 70%; }
 
-/* line 73, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .smallest { display: flex; justify-content: space-around; width: 70%; }
+/* line 77, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof .smallest .small_around { width: 5vh; height: 5vh; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: 3px solid #d9d9d9; }
 
-/* line 77, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .smallest .small_around { width: 5vh; height: 5vh; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: 3px solid #d9d9d9; }
+/* line 85, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .prof .smallest .small_around P { color: #d9d9d9; }
 
-/* line 85, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .smallest .small_around P { color: #d9d9d9; }
+/* line 91, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills { display: flex; flex-direction: row; justify-content: space-between; width: 60%; height: 13%; margin-top: 5vh; }
 
-/* line 92, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills { display: flex; flex-direction: row; justify-content: space-between; width: 60%; height: 13%; margin-top: 5vh; }
+/* line 98, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row { display: flex; width: 45%; flex-direction: column; }
 
-/* line 99, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row { display: flex; width: 45%; flex-direction: column; }
+/* line 102, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row .skill { display: flex; flex-direction: column; height: 50%; width: 100%; }
 
-/* line 103, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row .skill { display: flex; flex-direction: column; height: 50%; width: 100%; }
+/* line 107, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row .skill .bar { width: 100%; height: 19%; background-color: #d9d9d9; }
 
-/* line 108, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row .skill .bar { width: 100%; height: 19%; background-color: #d9d9d9; }
+/* line 115, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill { display: flex; flex-direction: row; justify-content: space-between; }
 
-/* line 116, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill { display: flex; flex-direction: row; justify-content: space-between; }
+/* line 119, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill p:first-child { color: black; font-weight: bold; }
 
-/* line 120, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill p:first-child { color: black; font-weight: bold; }
+/* line 123, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill p { color: black; padding: 0; }
 
-/* line 124, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill p { color: black; padding: 0; }
+/* line 128, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar { background-color: #9f449b; height: 100%; }
 
-/* line 129, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar { background-color: #9f449b; height: 100%; }
+/* line 131, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#design { width: 90%; }
 
-/* line 132, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#design { width: 90%; }
+/* line 134, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#graphic { width: 70%; }
 
-/* line 135, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#graphic { width: 70%; }
+/* line 137, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#html_css { width: 75%; }
 
-/* line 138, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#html_css { width: 75%; }
+/* line 140, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#ui_ux { width: 85%; }
 
-/* line 141, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#ui_ux { width: 85%; }
+/* line 144, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .slider { height: 250px; /*  border: 1px dotted green;*/ }
+
+/* line 149, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .slider ul { list-style: none; /*  border: 1px dotted red;*/ position: relative; }
+
+/* line 155, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .slider li { /*   border: 1px dotted yellow;*/ }
+
+/* line 158, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .boxes { width: 400px; height: 200px; background-color: green; }
+
+/* line 163, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .boxes2 { width: 400px; height: 200px; background-color: red; }
 
 /*# sourceMappingURL=main.css.map */
