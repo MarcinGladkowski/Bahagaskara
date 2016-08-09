@@ -14,12 +14,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:all 0.3s;
     p {
             color: white;
 
     }
     &:hover {
         cursor: pointer;
+        opacity: 0.5;
     }
 }
 #column {
