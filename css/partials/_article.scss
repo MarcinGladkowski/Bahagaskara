@@ -1,0 +1,30 @@
+
+article {
+    background-color: $articleColor;
+    height: 80vh;
+}
+.box {
+    @include flexCenter;
+    width: 34vh;
+    
+    .iconShape2 {
+    @include flexCenter;
+    @include backgrImg;
+    background-image: url('../images/shape2.png');
+    height: 134px;
+    width: 126px;
+        &:hover {
+        @include backgrImg;
+        background-image: url('../images/shape.png');
+        cursor: pointer;
+    }
+}
+    p  {
+        text-align: center;
+        padding: 5px;
+    }
+    div img {
+        height: 50px;
+        display: flex;
+    }
+}

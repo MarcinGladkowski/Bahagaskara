@@ -1,0 +1,15 @@
+$articleColor: #eeeeee;
+$mainColor: #9f449b;
+
+//mixins
+@mixin flexCenter () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin backgrImg () {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

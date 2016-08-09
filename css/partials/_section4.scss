@@ -1,0 +1,161 @@
+#swith {
+width: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 30vh;
+
+ .iconShape3 {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 10vh;
+    height: 10vh;
+    @include backgrImg;
+    background-size: contain;
+    background-image: url('../images/Shape2.png');
+     #arr1{
+        width: 5vh;
+        height: 5vh;
+        @include backgrImg;
+        background-size: contain;
+        background-image: url('../images/arrow1.png');
+     }
+     #arr2 {
+        width: 5vh;
+        height: 5vh;
+        @include backgrImg;
+        background-size: contain;
+        background-image: url('../images/arrow2.png');
+     }
+     &:hover {
+     width: 10vh;
+     height: 10vh;
+     @include backgrImg;
+     background-size: contain;
+     background-image: url('../images/Shape3.png');
+        }
+    }
+}
+#profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 110vh;
+    border: 1px dotted red;
+        .prof {
+    width: 25vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted red;
+    }
+        .around {
+    width: 20vh;
+    height: 20vh;
+    border: 1px dotted green;
+    background-color: grey;
+    border-radius: 50%;
+    }
+    h4 {
+      color: black;
+      text-align: center;
+    }
+    h5 {
+      color: black;
+      text-align: center;
+    }
+    .smallest {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        .small_around {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    }
+  }
+}
+.logs_section4 {
+    margin-top: 5vh;
+}
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    height: 13%;
+    margin-top: 5vh;
+//    border: 1px dotted green;
+    .skills_row {
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+            .skill {
+          display:flex;
+          flex-direction: column;
+          height: 50%;
+          width: 100%;
+//          border: 1px dotted blue;
+                .bar {
+                    width: 100%;
+                    height: 19%;
+                    background-color: grey;
+                }
+       }
+    }
+}
+.describe_skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &first-child {
+        color: black;
+    }
+    p{
+        color: grey;
+        padding: 0;
+    }
+}
+.inner_bar {
+    background-color: purple;
+    height: 100%;
+    &#design {
+        width: 90%;
+    }
+    &#graphic {
+        width: 70%;
+    }
+    &#html_css {
+        width: 75%;
+    }
+    &#ui_ux {
+        width: 85%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

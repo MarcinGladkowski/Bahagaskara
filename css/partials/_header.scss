@@ -1,0 +1,107 @@
+header {
+    background-image: url('../images/background2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: rebeccapurple;
+    height: 100vh;
+//    align-items: center;
+}
+.mainColor2 {
+    color: $mainColor;
+}
+//Size and colors text in header
+#logoTxt {
+    font-size: 4em;
+    height: 15vh;
+//    border: 1px dotted red;
+}
+#txt1 {
+    font-size: 1.5em;
+    height: 7vh;
+//    border: 1px dotted red;
+}
+#txt2 {
+    font-size: 1em;
+    height: 13vh;
+//    border: 1px dotted red;
+}
+#logoTxt, #txt1, #txt2 {
+    color: white; 
+}
+//div for oktagon 6 icons top
+#icons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 45vh;
+    width: 86%;
+}
+//icons styling
+.iconShape {
+//        border: 1px solid yellow;
+    @include flexCenter;
+    @include backgrImg;
+    background-image: url('../images/oktagon.png');
+    height: 134px;
+    width: 126px;
+    &:hover {
+        @include backgrImg;
+        background-image: url('../images/shape.png');
+        cursor: pointer;
+    } 
+//    border: 1px solid blue;
+    img {
+        height: 50px;
+        display: flex;
+    }
+    p {
+        display: flex;
+        color: white;
+    }
+}
+#icon3, #icon4 {
+    align-self: flex-start;
+}
+#iconSlide {
+    @include flexCenter;
+    @include backgrImg;
+    background-image: url('../images/oktagon.png');
+    height: 11vh;
+    width: 10vh;
+    &:hover {
+        @include backgrImg;
+        background-image: url('../images/shape.png');
+        cursor: pointer;
+    }
+    img {
+        height: 7vh;
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

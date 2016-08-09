@@ -1,0 +1,18 @@
+section {
+    background-color: white;
+    height: 20vh;
+}
+ul {
+    li { 
+        display: inline-block;
+        color: black;
+        margin-left: 2vw;
+        a {
+            text-decoration: none;
+            color: grey;
+            &:hover {
+                color: $mainColor;
+            }
+        }
+    }
+}

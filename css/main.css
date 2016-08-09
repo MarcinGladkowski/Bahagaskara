@@ -1,0 +1,137 @@
+/* line 2, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ article { background-color: #eeeeee; height: 80vh; }
+
+/* line 6, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ .box { display: flex; justify-content: center; align-items: center; flex-direction: column; width: 34vh; }
+
+/* line 10, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ .box .iconShape2 { display: flex; justify-content: center; align-items: center; flex-direction: column; background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/shape2.png"); height: 134px; width: 126px; }
+
+/* line 16, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ .box .iconShape2:hover { background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/shape.png"); cursor: pointer; }
+
+/* line 22, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ .box p { text-align: center; padding: 5px; }
+
+/* line 26, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_article.scss */ .box div img { height: 50px; display: flex; }
+
+/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ body { margin: 0 auto; width: 100%; max-width: 1360px; border: 1px dotted red; }
+
+/* line 7, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ .mainWidth { margin: 0 auto; width: 100%; max-width: 1000px; border: 1px dotted red; }
+
+/* line 13, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container1 { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+
+/* line 19, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container2 { display: flex; flex-direction: row; align-items: center; justify-content: space-around; height: 20vh; }
+
+/* line 26, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container3 { display: flex; justify-content: center; align-items: center; height: 80vh; }
+
+/* line 32, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container4 { display: flex; justify-content: center; align-items: center; flex-direction: column; height: 90vh; }
+
+/* line 39, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #contain_space { display: flex; justify-content: center; align-items: center; flex-direction: column; align-items: center; height: 60vh; }
+
+/* line 44, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container5 { display: flex; justify-content: center; align-items: center; flex-direction: column; align-items: center; height: 160vh; }
+
+/* line 49, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_body.scss */ #container6 { display: flex; justify-content: center; align-items: center; flex-direction: column; align-items: center; height: 100vh; }
+
+/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ header { background-image: url("../images/background2.png"); background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; justify-content: center; background-color: rebeccapurple; height: 100vh; }
+
+/* line 12, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ .mainColor2 { color: #9f449b; }
+
+/* line 16, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #logoTxt { font-size: 4em; height: 15vh; }
+
+/* line 21, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #txt1 { font-size: 1.5em; height: 7vh; }
+
+/* line 26, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #txt2 { font-size: 1em; height: 13vh; }
+
+/* line 31, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #logoTxt, #txt1, #txt2 { color: white; }
+
+/* line 35, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #icons { display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; height: 45vh; width: 86%; }
+
+/* line 44, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ .iconShape { display: flex; justify-content: center; align-items: center; flex-direction: column; background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/oktagon.png"); height: 134px; width: 126px; }
+
+/* line 51, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ .iconShape:hover { background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/shape.png"); cursor: pointer; }
+
+/* line 57, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ .iconShape img { height: 50px; display: flex; }
+
+/* line 61, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ .iconShape p { display: flex; color: white; }
+
+/* line 66, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #icon3, #icon4 { align-self: flex-start; }
+
+/* line 69, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #iconSlide { display: flex; justify-content: center; align-items: center; flex-direction: column; background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/oktagon.png"); height: 11vh; width: 10vh; }
+
+/* line 75, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #iconSlide:hover { background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/shape.png"); cursor: pointer; }
+
+/* line 80, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_header.scss */ #iconSlide img { height: 7vh; display: flex; }
+
+/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ section { background-color: white; height: 20vh; }
+
+/* line 6, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul li { display: inline-block; color: black; margin-left: 2vw; }
+
+/* line 10, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul li a { text-decoration: none; color: grey; }
+
+/* line 13, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section.scss */ ul li a:hover { color: #9f449b; }
+
+/* line 2, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #container4 #about { padding-bottom: 10vh; }
+
+/* line 6, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #tablet { height: 40vh; }
+
+/* line 9, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #button { width: 22vh; height: 7vh; background-color: #9f449b; border-radius: 1vh; display: flex; justify-content: center; align-items: center; }
+
+/* line 17, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #button p { color: white; }
+
+/* line 22, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #column { display: flex; justify-content: center; justify-content: space-between; padding-bottom: 5%; width: 90%; }
+
+/* line 29, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #column2 { display: flex; justify-content: center; flex-direction: column; justify-content: space-between; padding-left: 2vh; width: 50%; }
+
+/* line 37, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section2.scss */ #aboutTxt { width: 100%; margin-top: 0vh; }
+
+/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section3.scss */ section3 { background-image: url("../images/layer.png"); background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; justify-content: center; background-color: rebeccapurple; height: 60vh; }
+
+/* line 11, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section3.scss */ #txt5 { color: white; font-size: 2em; margin-top: 4vh; }
+
+/* line 1, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #swith { width: auto; display: flex; flex-direction: row; align-items: center; height: 30vh; }
+
+/* line 8, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #swith .iconShape3 { display: flex; justify-content: center; align-items: center; width: 10vh; height: 10vh; background-position: center center; background-size: cover; background-repeat: no-repeat; background-size: contain; background-image: url("../images/Shape2.png"); }
+
+/* line 17, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #swith .iconShape3 #arr1 { width: 5vh; height: 5vh; background-position: center center; background-size: cover; background-repeat: no-repeat; background-size: contain; background-image: url("../images/arrow1.png"); }
+
+/* line 24, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #swith .iconShape3 #arr2 { width: 5vh; height: 5vh; background-position: center center; background-size: cover; background-repeat: no-repeat; background-size: contain; background-image: url("../images/arrow2.png"); }
+
+/* line 31, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #swith .iconShape3:hover { width: 10vh; height: 10vh; background-position: center center; background-size: cover; background-repeat: no-repeat; background-size: contain; background-image: url("../images/Shape3.png"); }
+
+/* line 40, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles { display: flex; flex-direction: row; justify-content: center; align-items: center; justify-content: space-between; width: 110vh; border: 1px dotted red; }
+
+/* line 48, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .prof { width: 25vh; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px dotted red; }
+
+/* line 57, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .around { width: 20vh; height: 20vh; border: 1px dotted green; background-color: grey; border-radius: 50%; }
+
+/* line 64, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles h4 { color: black; text-align: center; }
+
+/* line 68, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles h5 { color: black; text-align: center; }
+
+/* line 72, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .smallest { display: flex; justify-content: space-around; width: 70%; }
+
+/* line 76, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #profiles .smallest .small_around { width: 5vh; height: 5vh; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: 1px solid grey; }
+
+/* line 87, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .logs_section4 { margin-top: 5vh; }
+
+/* line 90, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills { display: flex; flex-direction: row; justify-content: space-between; width: 60%; height: 13%; margin-top: 5vh; }
+
+/* line 98, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row { display: flex; width: 45%; flex-direction: column; }
+
+/* line 102, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row .skill { display: flex; flex-direction: column; height: 50%; width: 100%; }
+
+/* line 108, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ #skills .skills_row .skill .bar { width: 100%; height: 19%; background-color: grey; }
+
+/* line 116, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill { display: flex; flex-direction: row; justify-content: space-between; }
+
+/* line 120, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skillfirst-child { color: black; }
+
+/* line 123, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .describe_skill p { color: grey; padding: 0; }
+
+/* line 128, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar { background-color: purple; height: 100%; }
+
+/* line 131, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#design { width: 90%; }
+
+/* line 134, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#graphic { width: 70%; }
+
+/* line 137, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#html_css { width: 75%; }
+
+/* line 140, C:/Users/Marcin/Desktop/Bahagaskara/css/partials/_section4.scss */ .inner_bar#ui_ux { width: 85%; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+#container4 {
+    #about {
+        padding-bottom: 10vh;
+    }
+}
+#tablet {
+    height: 40vh;
+}
+#button {
+    width: 22vh;
+    height: 7vh;
+    background-color: $mainColor;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+            color: white;
+
+    }
+}
+#column {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    width: 90%;
+}
+#column2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2vh;
+    width: 50%;
+}
+#aboutTxt {
+    width: 100%;
+    margin-top: 0vh;
+}
