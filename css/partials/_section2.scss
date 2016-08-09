@@ -18,6 +18,9 @@
             color: white;
 
     }
+    &:hover {
+        cursor: pointer;
+    }
 }
 #column {
     display: flex;

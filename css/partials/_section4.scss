@@ -3,12 +3,12 @@ width: auto;
 display: flex;
 flex-direction: row;
 align-items: center;
-height: 30vh;
+height: 14vh;
 
  .iconShape3 {
     display: flex;
-     justify-content: center;
-     align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 10vh;
     height: 10vh;
     @include backgrImg;
@@ -34,8 +34,12 @@ height: 30vh;
      @include backgrImg;
      background-size: contain;
      background-image: url('../images/Shape3.png');
+     cursor: pointer;
         }
     }
+}
+.logs_section4 {
+    margin-top: 5%;
 }
 #profiles {
     display: flex;
@@ -44,31 +48,28 @@ height: 30vh;
     align-items: center;
     justify-content: space-between;
     width: 110vh;
-    border: 1px dotted red;
-        .prof {
+.prof {
     width: 25vh;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px dotted red;
     }
-        .around {
+.around {
     width: 20vh;
     height: 20vh;
-    border: 1px dotted green;
-    background-color: grey;
+    background-color: $articleColor;
     border-radius: 50%;
     }
-    h4 {
+h4 {
       color: black;
       text-align: center;
-    }
-    h5 {
+}
+h5 {
       color: black;
       text-align: center;
-    }
+}
     .smallest {
         display: flex;
         justify-content: space-around;
@@ -80,13 +81,14 @@ height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid grey;
+    border: 3px solid $articleColor;    
+            P {
+                color: $articleColor
+      }
     }
   }
 }
-.logs_section4 {
-    margin-top: 5vh;
-}
+
 #skills {
     display: flex;
     flex-direction: row;
@@ -94,7 +96,6 @@ height: 30vh;
     width: 60%;
     height: 13%;
     margin-top: 5vh;
-//    border: 1px dotted green;
     .skills_row {
         display: flex;
         width: 45%;
@@ -104,11 +105,10 @@ height: 30vh;
           flex-direction: column;
           height: 50%;
           width: 100%;
-//          border: 1px dotted blue;
                 .bar {
                     width: 100%;
                     height: 19%;
-                    background-color: grey;
+                    background-color: $articleColor;
                 }
        }
     }
@@ -117,16 +117,17 @@ height: 30vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    &first-child {
+    p:first-child {
         color: black;
+        font-weight: bold;
     }
-    p{
-        color: grey;
+    p {
+        color: black;
         padding: 0;
     }
 }
 .inner_bar {
-    background-color: purple;
+    background-color: $mainColor;
     height: 100%;
     &#design {
         width: 90%;

@@ -2,13 +2,11 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 1360px;
-    border: 1px dotted red;
 }
 .mainWidth {
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
-    border: 1px dotted red;
 }
 #container1 {
     display: flex;
@@ -42,7 +40,9 @@ body {
     height: 60vh;
 }
 #container5 {
-    @include flexCenter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     align-items: center;
     height: 160vh;
 }

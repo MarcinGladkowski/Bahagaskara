@@ -2,9 +2,9 @@ $(document).ready(function(){
 console.log('DOM load properly!');
 
     
-var header_buttons = $('.iconShape');
-var nav_links = $('.menu').find('li:not(:first)');
-var slide_down = $('#iconSlide');
+var header_buttons = $('.iconShape'),
+    nav_links = $('.menu').find('li:not(:first)'),
+    slide_down = $('#iconSlide');
 
 //add data index to header and menu
 header_buttons.each(function(i) {
@@ -39,11 +39,12 @@ slide_down.on('click', home_slide);
 first_li_home.on('click', home_slide2);
     
 //sticky menu
-var nav = $('#container2');
-var top = nav.offset().top;
-    
+var nav = $('#container2'),
+    top = nav.offset().top,
+    scrollT = $(document).scrollTop();
+       
 var sticky_menu = function() {
-    var scrollT = $(document).scrollTop();
+    scrollT = $(document).scrollTop();
     if( scrollT > top) {
     nav.addClass('sticky')
   } else {
@@ -52,7 +53,8 @@ var sticky_menu = function() {
 };
     
 $(window).on('scroll', sticky_menu);    
-    
+  
+
 });
 
 
