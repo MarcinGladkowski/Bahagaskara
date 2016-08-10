@@ -1,2 +1,2 @@
 # Bahagaskara
-HTML. CSS, jQuery, RWD, SASS.
+HTML. CSS, jQuery, SASS.
